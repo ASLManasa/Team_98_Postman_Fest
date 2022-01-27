@@ -9,6 +9,19 @@ nav{
     color: black;
     box-shadow: 5px 5px  #888888;
 }
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:hover{
+    color: goldenrod;
+}
 .register{
     text-align: right;
 }
