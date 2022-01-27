@@ -43,6 +43,9 @@ a:hover{
     display: flex;
     flex-direction: row;
     box-shadow:5px 5px 5px grey;
+    width:95%;
+    margin: auto;
+    margin-top: 50px;
 }
 .shoeimage{
     width: 50%;
@@ -63,6 +66,8 @@ p{
 .shopsec{
     width: 90%;
     margin:auto;
+    margin-top: 50px;
+    text-align: center;
    
 }
 .Shop{
@@ -103,16 +108,3 @@ img{
 }
 button{background-color: blueviolet;
 color: white;}
-.salesAnalysis{ 
-text-align: center;
-width:90%;
-border: 2px solid grey;
-margin: auto;}
-.form{
-    display: flex;
-    flex-direction: column;
-}
-label {
-    text-align:center;
-    padding-right:10px;
-}
