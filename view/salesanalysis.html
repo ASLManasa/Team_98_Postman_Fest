@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{background-color: antiquewhite;}
+    .salesAnalysis{ 
+        text-align: center;
+        width:90%;
+        border: 2px solid grey;
+        margin: auto;
+        margin-top: 50px;
+        background-color:brown;
+        color: white;
+        }
+        .form{    display: flex;
+            flex-direction: column;
+        margin: auto;}
+        .data{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: auto;}
+        label{
+            padding-right:20px;
+            margin: auto;
+        }
+        input{
+            margin: auto;
+        }
+        button{background-color: blueviolet;
+color: white;}
+</style>
+</head>
+<body>
+
+<section id="salesAnalysis" class="salesAnalysis">
+    <h1>Sales Analysis</h1>
+    <div class="graph">
+        <h3>Graph will be here</h3>
+    </div>
+    <div class="formdiv">
+        <form class="form" id="form">
+
+            <div class="data"><label>TOTAL REVENUE
+            <input type="number" id="totalrevenue"/>   <select name="my-select" id="revenue">
+                <option value="opt1">Men</option>
+                <option value="opt2">Women</option>
+                <option value="opt3">Total</option>
+              </select>   <button>Find</button></label>
+            </div >
+            <br>
+            <div class="data">
+                <label>TOTAL TODAY REVENUE</label>
+                <input type="number" id="dailyrevenue"/>   
+                <select name="my-select" id="todayrevenue">
+                    <option value="opt1">Men</option>
+                    <option value="opt2">Women</option>
+                    <option value="opt3">Total</option>
+                </select>  
+                <button>Find</button>
+            </div>  
+            <br>
+            <div class="data"><label>TOP SELLING SHOE </label>
+                <input type="number" id="topshoe"/>
+                <select name="my-select" >
+                    <option value="opt1">Men</option>
+                    <option value="opt2">Women</option>
+                     <option value="opt3">Total</option>
+              </select>   <button>Find</button>  
+            </div>
+            <br>
+            <div class="data"><label>STATUS OF SALES TARGET  </label>  
+                <input type="number" id="salestargetstatus"/> 
+                <select name="my-select" >
+                    <option value="opt1">Last month</option>
+                    <option value="opt2">Last Year</option>
+                </select>  
+                <button>Find</button> 
+            </div> 
+           
+            <br>
+            <div class="data">
+                <label>ADD NEW SALES TARGET </label>
+                <input type="number" id="salestargetnew"/>  
+                <select name="my-select" >
+                    <option value="opt1">Last month</option>
+                    <option value="opt2">Last Year</option>
+                </select>   
+                <button>Add</button>  
+            </div>
+            <br>
+        </form>
+    </div>
+</section>
+</body>
+</html>
