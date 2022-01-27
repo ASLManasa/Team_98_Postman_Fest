@@ -4,10 +4,10 @@ nav{
     height: max-content;
     text-align: center;
     font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     margin: 2px;
     color: black;
-    box-shadow: 5px 5px  #888888;
 }
 a:link {
     color: black;
@@ -22,9 +22,14 @@ a:link {
 a:hover{
     color: goldenrod;
 }
+.acc{
+    display: flex;
+    flex-direction:row;
+}
 .register{
     text-align: right;
 }
+
 .navbar{
     margin:  auto;
     display: block;
@@ -37,6 +42,7 @@ a:hover{
 .front{
     display: flex;
     flex-direction: row;
+    box-shadow:5px 5px 5px grey;
 }
 .shoeimage{
     width: 50%;
@@ -82,11 +88,31 @@ img{
     display: flex;
     margin: auto;
     margin-top: 20px;
+    border: 2px solid #888888 ;
 }
 .frontimg{
     width: 120%;
     height: 120%;
     margin-right: 0%;
     justify-content: right;
+    border: none;
 }
-
+.shopbutton{
+    width: 20%;
+    padding-left: 70px;
+}
+button{background-color: blueviolet;
+color: white;}
+.salesAnalysis{ 
+text-align: center;
+width:90%;
+border: 2px solid grey;
+margin: auto;}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+label {
+    text-align:center;
+    padding-right:10px;
+}
