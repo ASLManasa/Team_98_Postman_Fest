@@ -1,13 +1,22 @@
+body{    background: rgb(231, 231, 229);
+font-family: 'Courier New', Courier, monospace ;}
+h1{
+    font-size: 40px;
+}
 nav{
-    background-color : rgb(red, green, blue);
+
     width:auto;
-    height: max-content;
+    height: 120px;
     text-align: center;
     font-size: larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     margin: 2px;
-    color: black;
+    margin-bottom: 0px;
+    color: brown;
+    background: linear-gradient(160deg,rgb(142, 253, 253),rgb(40, 175, 228));
+    box-shadow:5px 5px  grey;
+    position: sticky;
+    top:10px;
 }
 a:link {
     color: black;
@@ -34,10 +43,13 @@ a:hover{
     margin:  auto;
     display: block;
     align-content: center;
+    padding-top: 1px;
+    padding-bottom: 8px;
 }
 .navlink{
     text-align: center;
     padding-left: 10px;
+
 }
 .front{
     display: flex;
@@ -46,10 +58,12 @@ a:hover{
     width:95%;
     margin: auto;
     margin-top: 50px;
+    background: linear-gradient(160deg,rgb(142, 253, 253),rgb(40, 175, 228));
+    color:rgb(187, 9, 39);
+
 }
 .shoeimage{
     width: 50%;
-    background-color: cyan;
     margin-right: 0px;
 }
 p{
@@ -61,18 +75,29 @@ p{
     padding-top: 100px;
     text-align: left;
     justify-content: left;
-    background-color: cyan;
+
+}
+.shopnowbutton{
+    height: 40px;
+    width:100px;
+    
 }
 .shopsec{
     width: 90%;
     margin:auto;
     margin-top: 50px;
     text-align: center;
+    background: linear-gradient(160deg,rgb(142, 253, 253),rgb(40, 175, 228));
+    color: chocolate;
+    font-style: italic;
+    font-weight: bolder;
+    box-shadow:5px 5px 5px grey;
    
 }
 .Shop{
     display: flex;
     flex-direction: column;
+
 }
 .Men,.Women{
     display: flex;
@@ -81,19 +106,20 @@ p{
 }
 .shoe{
     width: 22%;
-    border: 2px solid #888888 ;
-    height: 200px;
+    height: 250px;
     margin: auto;
     justify-content: center;
 }
 
 img{
-    width: 75%;
+    width: 70%;
     justify-content: center;
-    display: flex;
+    display: block;
     margin: auto;
-    margin-top: 20px;
+    height: 200px;
+    width: 250px;
     border: 2px solid #888888 ;
+    margin-top: 3px;
 }
 .frontimg{
     width: 120%;
@@ -102,9 +128,12 @@ img{
     justify-content: right;
     border: none;
 }
-.shopbutton{
-    width: 20%;
-    padding-left: 70px;
+.shopbutton{    padding-left: 70px;
+    padding-top: 20px;
+   
+
 }
 button{background-color: blueviolet;
-color: white;}
+color: white;
+border: 2px solid white;
+box-shadow: 4px 4px black;}
